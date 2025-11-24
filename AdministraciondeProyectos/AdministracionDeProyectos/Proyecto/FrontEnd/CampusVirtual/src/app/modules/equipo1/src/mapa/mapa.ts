@@ -73,7 +73,7 @@ export class Mapa implements AfterViewInit, OnDestroy {
         .bindPopup(`<strong>${punto.emoji} ${punto.name}</strong>`);
     });
     
-    // es para el primer marcador (Facultad de Sistemas) al cargar el mapa
+    // es para el primer marcador (Facultad de Sistemas) al cargar el mapa jkj
     L.marker([coords.sistemas.lat, coords.sistemas.lng])
       .addTo(this.map!)
       .bindPopup(`<strong>${coords.sistemas.emoji} ${coords.sistemas.name}</strong>`)
